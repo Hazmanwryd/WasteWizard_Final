@@ -16,8 +16,6 @@ setInterval(() => {
       if (obj.field1 >= 6000) {
         document.getElementById("Switch").innerHTML = "ON";
       }
-      if  (obj.field1 <= 6000) {
-        document.getElementById("Switch").innerHTML = "OFF";
       }
-    });
+    );
 }, 1000);
