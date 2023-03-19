@@ -77,7 +77,7 @@ section .card .card-text h2 {
   width: 200px;
   height: 60px;
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 }
 
