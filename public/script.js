@@ -8,11 +8,9 @@ setInterval(() => {
     .then((res) => {
       var field = JSON.stringify(res.feeds[0]);
       var obj = JSON.parse(field);
-      document.getElementById("Motion").innerHTML = obj.field2;
       if (obj.field2 == 1) {
         document.getElementById("Motion").innerHTML = "Motion Detected";
       }
-      document.getElementById("Switch").innerHTML = obj.field1;
       if (obj.field1 >= 6000) {
         document.getElementById("Switch").innerHTML = "ON";
       }
