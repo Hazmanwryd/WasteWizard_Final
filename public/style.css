@@ -134,21 +134,9 @@ section .card .button:hover .icon {
   color: #fff;
 }
 
-section .card .content a {
-  list-style-type: none;
-  text-decoration: none;
-  color: inherit;
-}
-
 section .card .button .icon i {
   font-size: 25px;
   line-height: 40px;
-}
-
-section .card .button span{
-  font-weight: 500;
-  margin-left: 5px;
-  transition: all 0.3s ease-out;
 }
 
 section .toggle {

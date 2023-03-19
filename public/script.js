@@ -16,5 +16,8 @@ setInterval(() => {
       if (obj.field1 == 1) {
         document.getElementById("Switch").innerHTML = "ON";
       }
+      else {
+        document.getElementById("Switch").innerHTML = "OFF";
+      }
     });
 }, 1000);
