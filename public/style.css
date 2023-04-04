@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  background-image: url('SL_043021_42650_12.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin: 30px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+
+section .card .content,
+section .card .card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .card .content,
+section .card .card-text .progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+
+section .card .card-text h4 {
+  font-weight: 700;
+  width: 200px;
+  height: 60px;
+  font-size: 1.2em;
+  text-align:top;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+section .card .card-text .card-image {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+section .card .card-text .card-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section h5 {
+  font-weight: 700;
+  width: 200px;
+  height: 60px;
+  font-size: 1.2em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+section .card .card-text h2 {
+  font-weight: 700;
+  width: 200px;
+  height: 60px;
+  font-size: 1.2em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+section .card .card-text li {
+  padding-left: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: left;
+  font-size: 0.7em;
+  height: 30px;
+  width: 250px;
+  list-style-type: none;
+  line-height: 25px;
+}
+
+section .card .card-text ul {
+  margin-bottom: 20px;
+}
+
+section .running-text {
+  position: absolute;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  top: 25px;
+  width: 520px;
+  height: 60px;
+  font-size: 2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1020px) {
+  section {
+    align-content: space-between;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  section .running-text {
+    width: 280px;
+    height: 150px;
+  }
+}
