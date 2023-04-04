@@ -1,4 +1,4 @@
-// api url
+//loading bar code?
 const api_url = "https://api.thingspeak.com/channels/2071475/feeds.json?api_key=X85TVSZ5J1RFMEPX&results=1";
 // masukan url sesuai dengan format <ChannelID>, <ReadAPIKeys> yang ada di Thingspeak, tanpa menggunakan < >
 
