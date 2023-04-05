@@ -51,7 +51,6 @@ section .card .card-text .progress {
   width: 200px;
 }
 
-
 section .card .card-text h4 {
   font-weight: 700;
   width: 200px;
@@ -59,7 +58,6 @@ section .card .card-text h4 {
   font-size: 1.2em;
   text-align:top;
   text-align:center;
-  margin-bottom: 10px;
 }
 
 section .card .card-text .card-image {
@@ -98,6 +96,15 @@ section .card .card-text h2 {
   margin-bottom: 10px;
 }
 
+section .card .card-text h6 {
+  font-weight: 300;
+  width: 100px;
+  height: 40px;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 1px;
+}
+
 section .card .card-text li {
   padding-left: 10px;
   font-size: 1em;
@@ -130,10 +137,5 @@ section .JUDUL {
     align-content: space-between;
     justify-content: space-around;
     flex-direction: column;
-  }
-
-  section .running-text {
-    width: 280px;
-    height: 150px;
   }
 }
