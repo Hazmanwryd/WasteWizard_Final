@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
+  <script>
+		function checkValue() {
+			var v4 = parseInt(document.getElementById("v4").value);
+			if (id="v4" > 80) {
+				alert("Tempat Sampah Penuh");
+			}
+		}
+	</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
@@ -26,7 +34,7 @@
                                 <img src="img/tult.png" alt="">
                                   </div>
                                     <h4>Tempat Sampah 1</h4>
-                                    <h6 id="v4">--</h6>
+                                    <h6 id="v4">--%</h6>
                                     <ul>
                                         <button onclick="myFunction()">Locate</button>
                                       </ul>
@@ -49,7 +57,6 @@
                                     </div>
                                   </div>                                   
                   </section>  
-                  <footer class="w3-container w3-theme-dark w3-padding-16">
                     <h5> About </h5>
                     <p> Tempat sampah Telkom University</p>
                   </footer>
@@ -59,10 +66,7 @@
                   var txt;
                   if (confirm("TULT")) {
                     txt = "You pressed OK!";
-                  } else {
-                    txt = "You pressed Cancel!";
                   }
-                  
                 document.getElementById("demo").innerHTML = txt;
                   }
                   function myFunctionn() {
