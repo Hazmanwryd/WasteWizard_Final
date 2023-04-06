@@ -51,15 +51,14 @@ section .card .card-text .progress {
   width: 200px;
 }
 
-
 section .card .card-text h4 {
+  color: #00144d;
   font-weight: 700;
   width: 200px;
   height: 60px;
   font-size: 1.2em;
   text-align:top;
   text-align:center;
-  margin-bottom: 10px;
 }
 
 section .card .card-text .card-image {
@@ -80,7 +79,7 @@ section .card .card-text .card-image img {
   object-fit: cover;
 }
 
-section h5 {
+section .card .card-text h2 {
   font-weight: 700;
   width: 200px;
   height: 60px;
@@ -89,13 +88,13 @@ section h5 {
   margin-bottom: 10px;
 }
 
-section .card .card-text h2 {
-  font-weight: 700;
-  width: 200px;
-  height: 60px;
-  font-size: 1.2em;
-  text-align: left;
-  margin-bottom: 10px;
+section .card .card-text h6 {
+  font-weight: 300;
+  width: 100px;
+  height: 40px;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 1px;
 }
 
 section .card .card-text li {
@@ -110,11 +109,7 @@ section .card .card-text li {
   line-height: 25px;
 }
 
-section .card .card-text ul {
-  margin-bottom: 20px;
-}
-
-section .running-text {
+section .JUDUL {
   position: absolute;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
@@ -130,10 +125,6 @@ section .running-text {
     align-content: space-between;
     justify-content: space-around;
     flex-direction: column;
-  }
-
-  section .running-text {
+running-text {
     width: 280px;
     height: 150px;
-  }
-}
