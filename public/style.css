@@ -9,8 +9,7 @@
 
 section {
   position: relative;
-  background-image: url('SL_043021_42650_12.jpg');
-  background-size: cover;
+  background-image: linear-gradient(to bottom right, rgb(142, 201, 255), rgb(0, 255, 64));
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -52,7 +51,6 @@ section .card .card-text .progress {
 }
 
 section .card .card-text h4 {
-  color: #00144d;
   font-weight: 700;
   width: 200px;
   height: 60px;
@@ -125,6 +123,5 @@ section .JUDUL {
     align-content: space-between;
     justify-content: space-around;
     flex-direction: column;
-running-text {
-    width: 280px;
-    height: 150px;
+  }
+}
